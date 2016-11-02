@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <LinearLayout android:layout_height="wrap_content" android:gravity="center" android:layout_width="fill_parent" android:id="@+id/how_indx">
+    </LinearLayout>
+    <ViewFlipper android:layout_height="fill_parent" android:id="@+id/flipper" android:layout_width="fill_parent" android:padding="10dp">
+        <LinearLayout android:orientation="vertical" android:id="@+id/how1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/display" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imageView1" android:src="@drawable/front"></ImageView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/text" android:layout_weight="1.5">
+                <TextView android:layout_width="wrap_content" android:gravity="center" android:layout_height="wrap_content" android:text="@string/welcome" android:id="@+id/textView1" android:padding="3dp"></TextView>
+            </LinearLayout>
+         </LinearLayout>
+           
+         <LinearLayout android:orientation="vertical" android:id="@+id/how1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/display" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imageView1" android:src="@drawable/wifi"></ImageView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/text" android:layout_weight="1.5">
+                <TextView android:layout_width="wrap_content" android:gravity="center" android:layout_height="wrap_content" android:text="@string/requirements" android:id="@+id/textView1" android:padding="3dp"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout android:orientation="vertical" android:id="@+id/how2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/display" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imageView1" android:src="@drawable/home"></ImageView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/text" android:layout_weight="1.5">
+                <TextView android:layout_width="wrap_content" android:gravity="center" android:layout_height="wrap_content" android:text="@string/step1" android:id="@+id/textView1" android:padding="3dp"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+        
+         <LinearLayout android:orientation="vertical" android:id="@+id/how3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+             <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/display" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imageView1" android:src="@drawable/clock"></ImageView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/text" android:layout_weight="1.5">
+                <TextView android:layout_width="wrap_content" android:gravity="center" android:layout_height="wrap_content" android:text="@string/step2" android:id="@+id/textView1" android:padding="3dp"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+       <LinearLayout android:orientation="vertical" android:id="@+id/how3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/display" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imageView1" android:src="@drawable/settings"></ImageView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/text" android:layout_weight="1.5">
+                <TextView android:layout_width="wrap_content" android:gravity="center" android:layout_height="wrap_content" android:text="@string/step3" android:id="@+id/textView1" android:padding="3dp"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout android:orientation="vertical" android:id="@+id/how4" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/display" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imageView1" android:src="@drawable/sms"></ImageView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/text" android:layout_weight="1.5">
+                <TextView android:layout_width="wrap_content" android:gravity="center" android:layout_height="wrap_content" android:text="@string/step4" android:id="@+id/textView1" android:padding="3dp"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+                
+        <LinearLayout android:orientation="vertical" android:id="@+id/how5" android:layout_width="fill_parent" android:layout_height="fill_parent">
+             <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/display" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imageView1" android:src="@drawable/done"></ImageView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/text" android:layout_weight="1.5">
+                <TextView android:layout_width="wrap_content" android:gravity="center" android:layout_height="wrap_content" android:text="@string/step5" android:id="@+id/textView1" android:padding="3dp"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+        
+
+    </ViewFlipper>
+    <RelativeLayout android:id="@+id/bottombar" android:layout_height="fill_parent" android:gravity="bottom|center" android:background="@android:drawable/bottom_bar" android:padding="1dip" android:layout_marginTop="-50dip" android:layout_width="fill_parent">
+        <Button android:layout_marginBottom="-4dip" android:layout_height="wrap_content" android:id="@+id/next" android:minWidth="100dp" android:layout_width="wrap_content" android:text="Next"></Button>
+    </RelativeLayout>
+</LinearLayout>

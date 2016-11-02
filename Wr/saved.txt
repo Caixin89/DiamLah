@@ -1,0 +1,81 @@
+<LinearLayout android:layout_width="wrap_content" android:id="@+id/linearLayoutTime" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_weight="1">
+                          <Button android:layout_width="wrap_content" android:text="Odd" style="@style/timeheader" android:id="@+id/flipbuttontoeven" android:layout_height="wrap_content"></Button>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/textView1" style="@style/timeheader" android:layout_height="wrap_content" android:text="8"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/textView1" style="@style/timeheader" android:layout_height="wrap_content" android:text="9"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/textView1" style="@style/timeheader" android:layout_height="wrap_content" android:text="10"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/textView1" style="@style/timeheader" android:layout_height="wrap_content" android:text="11"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/textView1" style="@style/timeheader" android:layout_height="wrap_content" android:text="12"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/textView1" style="@style/timeheader" android:layout_height="wrap_content" android:text="13"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/textView1" style="@style/timeheader" android:layout_height="wrap_content" android:text="14"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/textView1" style="@style/timeheader" android:layout_height="wrap_content" android:text="15"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/textView1" style="@style/timeheader" android:layout_height="wrap_content" android:text="16"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/textView1" style="@style/timeheader" android:layout_height="wrap_content" android:text="17"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/textView1" style="@style/timeheader" android:layout_height="wrap_content" android:text="18"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/textView1" style="@style/timeheader" android:layout_height="wrap_content" android:text="19"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/textView1" style="@style/timeheader" android:layout_height="wrap_content" android:text="20"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/textView1" style="@style/timeheader" android:layout_height="wrap_content" android:text="21"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/textView1" style="@style/timeheader" android:layout_height="wrap_content" android:text="22"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/textView1" style="@style/timeheader" android:layout_height="wrap_content" android:text="23"></TextView>
+                      </LinearLayout>
+                      <LinearLayout android:layout_width="wrap_content" android:id="@+id/linearLayoutMonday" android:layout_height="wrap_content" android:layout_weight="1" >
+                          <TextView android:layout_width="wrap_content" android:id="@+id/day" android:layout_height="wrap_content" android:text="Monday" style="@style/dayheader"></TextView>
+                      </LinearLayout>
+                      <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayoutTuesday" android:layout_height="wrap_content" android:layout_weight="1" >
+                          <TextView android:layout_width="wrap_content" android:id="@+id/day" android:layout_height="wrap_content" android:text="Tuesday" style="@style/dayheader"></TextView>
+                      </LinearLayout>
+                      <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayoutWednesday" android:layout_height="wrap_content" android:layout_weight="1">
+                          <TextView android:layout_width="wrap_content" android:id="@+id/day" android:layout_height="wrap_content" android:text="Wednesday" style="@style/dayheader"></TextView>
+                      </LinearLayout>
+                      <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayoutThursday" android:layout_height="wrap_content" android:layout_weight="1">
+                          <TextView android:layout_width="wrap_content" android:id="@+id/day" android:layout_height="wrap_content" android:text="Thursday" style="@style/dayheader"></TextView>
+                      </LinearLayout>
+                      <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayoutFriday" android:layout_height="wrap_content" android:layout_weight="1">
+                          <TextView android:layout_width="wrap_content" android:id="@+id/day" android:layout_height="wrap_content" android:text="Friday" style="@style/dayheader"></TextView>
+                      </LinearLayout>
+                      <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayoutSaturday" android:layout_height="wrap_content" android:layout_weight="1">
+                          <TextView android:layout_width="wrap_content" android:id="@+id/day" android:layout_height="wrap_content" android:text="Saturday" style="@style/dayheader"></TextView>
+                      </LinearLayout>
+
+
+
+Even
+
+
+
+ <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayoutTime2" android:layout_height="wrap_content" android:orientation="horizontal">
+                          <Button android:layout_width="wrap_content" android:text="Even" style="@style/timeheader" android:id="@+id/flipbuttontoodd" android:layout_height="wrap_content"></Button>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" style="@style/timeheader" android:layout_height="wrap_content" android:text="8"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" style="@style/timeheader" android:layout_height="wrap_content" android:text="9"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" style="@style/timeheader" android:layout_height="wrap_content" android:text="10"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" style="@style/timeheader" android:layout_height="wrap_content" android:text="11"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" style="@style/timeheader" android:layout_height="wrap_content" android:text="12"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" style="@style/timeheader" android:layout_height="wrap_content" android:text="13"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" style="@style/timeheader" android:layout_height="wrap_content" android:text="14"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" style="@style/timeheader" android:layout_height="wrap_content" android:text="15"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" style="@style/timeheader" android:layout_height="wrap_content" android:text="16"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" style="@style/timeheader" android:layout_height="wrap_content" android:text="17"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" style="@style/timeheader" android:layout_height="wrap_content" android:text="18"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" style="@style/timeheader" android:layout_height="wrap_content" android:text="19"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" style="@style/timeheader" android:layout_height="wrap_content" android:text="20"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" style="@style/timeheader" android:layout_height="wrap_content" android:text="21"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" style="@style/timeheader" android:layout_height="wrap_content" android:text="22"></TextView>
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView01" style="@style/timeheader" android:layout_height="wrap_content" android:text="23"></TextView>
+                      </LinearLayout>
+                      <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayoutMonday2" android:layout_height="wrap_content" android:layout_weight="1">
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView02" android:layout_height="wrap_content" android:text="Monday" style="@style/dayheader"></TextView>
+                      </LinearLayout>
+                      <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayoutTuesday2" android:layout_height="wrap_content" android:layout_weight="1">
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView02" android:layout_height="wrap_content" android:text="Tuesday" style="@style/dayheader"></TextView>
+                      </LinearLayout>
+                      <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayoutWednesday2" android:layout_height="wrap_content" android:layout_weight="1">
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView02" android:layout_height="wrap_content" android:text="Wednesday" style="@style/dayheader"></TextView>
+                      </LinearLayout>
+                      <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayoutThursday2" android:layout_height="wrap_content" android:layout_weight="1">
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView02" android:layout_height="wrap_content" android:text="Thursday" style="@style/dayheader"></TextView>
+                      </LinearLayout>
+                      <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayoutFriday2" android:layout_height="wrap_content" android:layout_weight="1">
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView02" android:layout_height="wrap_content" android:text="Friday" style="@style/dayheader"></TextView>
+                      </LinearLayout>
+                      <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayoutSaturday2" android:layout_height="wrap_content" android:layout_weight="1">
+                          <TextView android:layout_width="wrap_content" android:id="@+id/TextView02" android:layout_height="wrap_content" android:text="Saturday" style="@style/dayheader"></TextView>
+                      </LinearLayout>

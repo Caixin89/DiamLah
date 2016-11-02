@@ -1,0 +1,16 @@
+---Shared Preferences Key---
+Key: Type: Uses
+"isActivated": Boolean: Whether the alarm is activated or not
+"Mode": Boolean: Whether to silent/vibrate or not
+"RowID": long: Schedule's Row Id
+"sms_message": String: Message Tolkenisation
+"count": int: Used to store count in Alarm class
+"user_id": String: Matric No.
+"response": String: Response type
+"clear_data": Button: Remove all data
+"how_to_use": Button: How To Use
+"about": About Button
+"auto_reply": Boolean: SMS Reply
+"reply_sms": String: SMS Message
+"sms_interval": String: SMS Reply Interval
+

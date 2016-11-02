@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content"  android:orientation="horizontal"  android:padding="12dp" android:id="@+id/rowlayout">
+         <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/row_text" android:layout_weight="1" android:fadingEdge="horizontal">
+             <TextView android:text="TextView" android:layout_height="wrap_content" android:singleLine="true" android:id="@+id/daterow" android:layout_width="wrap_content" android:ellipsize="end"></TextView>
+             <TextView android:text="TextView" android:layout_height="wrap_content" android:singleLine="true" android:id="@+id/textrow" android:layout_width="wrap_content" android:ellipsize="marquee"></TextView>
+         </LinearLayout>
+     </LinearLayout>

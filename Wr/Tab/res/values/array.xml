@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mode_name">
+        <item>Silent</item>
+        <item>Vibrate</item>
+        <item>Ringtone</item>
+    </string-array>
+    <string-array name="mode_id">
+        <item>silent</item>
+        <item>vibrate</item>
+        <item>ringtone</item>
+    </string-array>
+</resources>

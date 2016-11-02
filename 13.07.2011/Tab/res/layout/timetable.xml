@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:id="@+id/horizontalScrollView1" android:layout_height="fill_parent" android:orientation="vertical">
+          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:id="@+id/linearLayoutButton">
+              <LinearLayout android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/linearLayout2">
+                  <Button android:padding="6dp" android:id="@+id/odd" android:text="@string/odd" style="@style/oddevenbutton" android:background="@drawable/grad_button_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+              </LinearLayout>
+              <LinearLayout  android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/linearLayout3" android:background="@drawable/tab_divider">
+                  <ImageView android:layout_height="fill_parent" android:id="@+id/imageView1" android:src="@drawable/tab_divider" android:layout_width="wrap_content" ></ImageView>
+              </LinearLayout>
+              <LinearLayout android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/linearLayout1">
+                  <Button android:padding="6dp" android:id="@+id/even" android:text="@string/even" style="@style/oddevenbutton" android:background="@drawable/grad_button_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+              </LinearLayout>
+          </LinearLayout>
+          <HorizontalScrollView android:id="@+id/horizontalScrollView2" android:layout_width="wrap_content" android:layout_height="fill_parent">
+              <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout3" android:layout_height="fill_parent" android:orientation="horizontal">
+                  <ViewFlipper android:id="@+id/details" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                      <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/Odd">
+                          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/linear" android:layout_weight="0.1" android:id="@+id/linearLayoutTime">
+                              <TextView style="@style/timeheader" android:text=" " android:layout_width="wrap_content" android:id="@+id/TextView03" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="8 AM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="9 AM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="10 AM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="11 AM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="Noon" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="1 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="2 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="3 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="4 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="5 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="6 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="7 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="8 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="9 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="10 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="11 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                          </LinearLayout>
+                          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/linear" android:layout_weight="1" android:background="@drawable/topline" android:id="@+id/LinearLayoutMonday">
+                              <TextView style="@style/dayheader" android:text="Monday" android:layout_width="wrap_content" android:id="@+id/day" android:layout_height="wrap_content"></TextView>
+                          </LinearLayout>
+                          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/linear" android:layout_weight="1" android:background="@drawable/topline" android:id="@+id/LinearLayoutTuesday">
+                              <TextView style="@style/dayheader" android:text="Tuesday" android:layout_width="wrap_content" android:id="@+id/day" android:layout_height="wrap_content"></TextView>
+                          </LinearLayout>
+                          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/linear" android:layout_weight="1" android:background="@drawable/topline" android:id="@+id/LinearLayoutWednesday">
+                              <TextView style="@style/dayheader" android:text="Wednesday" android:layout_width="wrap_content" android:id="@+id/day" android:layout_height="wrap_content"></TextView>
+                          </LinearLayout>
+                          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/linear" android:layout_weight="1" android:background="@drawable/topline" android:id="@+id/LinearLayoutThursday">
+                              <TextView style="@style/dayheader" android:text="Thursday" android:layout_width="wrap_content" android:id="@+id/day" android:layout_height="wrap_content"></TextView>
+                          </LinearLayout>
+                          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/linear" android:layout_weight="1" android:background="@drawable/topline" android:id="@+id/LinearLayoutFriday">
+                              <TextView style="@style/dayheader" android:text="Friday" android:layout_width="wrap_content" android:id="@+id/day" android:layout_height="wrap_content"></TextView>
+                          </LinearLayout>
+                          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/linear" android:layout_weight="1" android:background="@drawable/topline" android:id="@+id/LinearLayoutSaturday">
+                              <TextView style="@style/dayheader" android:text="Saturday" android:layout_width="wrap_content" android:id="@+id/day" android:layout_height="wrap_content"></TextView>
+                          </LinearLayout>
+                          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/linear" android:layout_weight="1" android:background="@drawable/topline" android:id="@+id/LinearLayoutSunday">
+                              <TextView style="@style/dayheader" android:text="Sunday" android:layout_width="wrap_content" android:id="@+id/day" android:layout_height="wrap_content"></TextView>
+                          </LinearLayout>
+                      </LinearLayout>
+                      <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/Even">
+                          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/linear" android:layout_weight="0.1" android:id="@+id/LinearLayoutTime2">
+                              <TextView style="@style/timeheader" android:text=" " android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="8 AM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="9 AM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="10 AM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="11 AM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="Noon" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="1 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="2 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="3 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="4 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="5 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="6 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="7 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="8 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="9 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="10 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                              <TextView style="@style/timeheader" android:text="11 PM" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+                          </LinearLayout>
+                          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/linear" android:layout_weight="1" android:background="@drawable/topline" android:id="@+id/LinearLayoutMonday2">
+                              <TextView style="@style/dayheader" android:text="Monday" android:layout_width="wrap_content" android:id="@+id/TextView02" android:layout_height="wrap_content"></TextView>
+                          </LinearLayout>
+                          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/linear" android:layout_weight="1" android:background="@drawable/topline" android:id="@+id/LinearLayoutTuesday2">
+                              <TextView style="@style/dayheader" android:text="Tuesday" android:layout_width="wrap_content" android:id="@+id/TextView02" android:layout_height="wrap_content"></TextView>
+                          </LinearLayout>
+                          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/linear" android:layout_weight="1" android:background="@drawable/topline" android:id="@+id/LinearLayoutWednesday2">
+                              <TextView style="@style/dayheader" android:text="Wednesday" android:layout_width="wrap_content" android:id="@+id/TextView02" android:layout_height="wrap_content"></TextView>
+                          </LinearLayout>
+                          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/linear" android:layout_weight="1" android:background="@drawable/topline" android:id="@+id/LinearLayoutThursday2">
+                              <TextView style="@style/dayheader" android:text="Thursday" android:layout_width="wrap_content" android:id="@+id/TextView02" android:layout_height="wrap_content"></TextView>
+                          </LinearLayout>
+                          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/linear" android:layout_weight="1" android:background="@drawable/topline" android:id="@+id/LinearLayoutFriday2">
+                              <TextView style="@style/dayheader" android:text="Friday" android:layout_width="wrap_content" android:id="@+id/TextView02" android:layout_height="wrap_content"></TextView>
+                          </LinearLayout>
+                          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/linear" android:layout_weight="1" android:background="@drawable/topline" android:id="@+id/LinearLayoutSaturday2">
+                              <TextView style="@style/dayheader" android:text="Saturday" android:layout_width="wrap_content" android:id="@+id/TextView02" android:layout_height="wrap_content"></TextView>
+                          </LinearLayout>
+                          <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/linear" android:layout_weight="1" android:background="@drawable/topline" android:id="@+id/LinearLayoutSunday2">
+                              <TextView style="@style/dayheader" android:text="Sunday" android:layout_width="wrap_content" android:id="@+id/day" android:layout_height="wrap_content"></TextView>
+                          </LinearLayout>
+                      </LinearLayout>
+                  </ViewFlipper>
+              </LinearLayout>
+          </HorizontalScrollView>
+      </LinearLayout>

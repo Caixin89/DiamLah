@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	  
+  <EditTextPreference
+  	android:key="user_id"
+	android:title="User ID"
+	android:summary="Please enter your User ID"
+	android:dialogTitle="User ID"
+	android:dialogMessage="Provide a user ID"
+	android:defaultValue="Default User ID" />
+  	
+  <ListPreference
+	android:key="response"
+	android:title="Response"
+	android:summary="Define what type of reponse to be performed"
+	android:defaultValue="a"
+	android:entries="@array/response"
+	android:entryValues="@array/responseValues" />
+  	
+  <CheckBoxPreference
+	android:key="show_notification"
+  	android:title="Show Notification"
+  	android:summary="Enable or disable notifications"
+  	android:defaultValue="true" />
+  	
+  <CheckBoxPreference
+	android:key="auto_reply"
+  	android:title="SMS Reply"
+  	android:summary="Enable or disable automatic sms reply"
+  	android:defaultValue="false" />
+  	
+   <EditTextPreference
+  	android:key="reply_sms"
+	android:title="SMS Message"
+	android:summary="Please enter the message to be replied automatically"
+	android:dialogTitle="SMS Message"
+	android:dialogMessage="Provide a SMS Message"
+	android:defaultValue="Default Message"
+	android:dependency="auto_reply" />
+	
+   <ListPreference
+	android:key="sms_interval"
+	android:title="SMS Reply Interval"
+	android:summary="Define the minimum interval between automatic sms replies"
+	android:defaultValue="1"
+	android:entries="@array/sms_interval"
+	android:entryValues="@array/sms_intervalValues"
+	android:dependency="auto_reply" />
+  		
+  <Preference
+	android:key="button"
+	android:title="Clear Data" />
+  
+</PreferenceScreen>

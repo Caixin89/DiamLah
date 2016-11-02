@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+>
+
+     <LinearLayout android:layout_width="fill_parent"   android:gravity="center" android:layout_height="wrap_content" android:id="@+id/Linearicon" android:layout_weight="2.5">
+   		 <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/front" android:layout_height="wrap_content"></ImageView>
+    </LinearLayout>
+    
+        <LinearLayout android:layout_width="fill_parent" android:gravity="center|top"  android:layout_height="wrap_content" android:id="@+id/Linearheader" android:layout_weight="1" android:paddingTop="2sp" android:paddingBottom="2sp">
+        <TextView android:textColor="#a0a0a0" android:textStyle="bold" android:gravity="center" android:text="Welcome Student!" android:id="@+id/dtext" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="fill_parent" android:gravity="center"  android:layout_height="wrap_content" android:id="@+id/Lineartoggle" android:layout_weight="1.5">
+    	 <ToggleButton android:text="Activated?" android:id="@+id/toggletext" android:layout_width="fill_parent" android:layout_height="fill_parent"></ToggleButton>
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="fill_parent" android:gravity="center"  android:layout_height="wrap_content" android:id="@+id/Lineartimetable" android:layout_weight="1.5">
+    	 <Button android:text="Timetable" android:id="@+id/timetabletext" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/grad_button_selector"></Button>
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="fill_parent" android:gravity="center"  android:layout_height="wrap_content" android:id="@+id/Linearsettings" android:layout_weight="1.5">
+    	 <Button android:text="Settings" android:id="@+id/settingstext" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/grad_button_selector"></Button>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:summary="Please input your Matric number" android:key="username" android:title="Matric No." android:defaultValue="A0000000K"></EditTextPreference>
+    <ListPreference android:key="modes" android:summary="Silent or vibrate phone." android:title="Call Mode" android:entryValues="@array/mode_id" android:entries="@array/mode_name"></ListPreference>
+    <CheckBoxPreference android:summary="Notify you when the app is activated." android:title="Show Notification" android:key="notification"></CheckBoxPreference>
+    <Preference android:key="logout" android:title="Logout"></Preference>
+  
+</PreferenceScreen>

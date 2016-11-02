@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	  
+  <CheckBoxPreference
+	android:key="auto_reply"
+  	android:title="SMS Reply"
+  	android:summary="Enable or disable automatic sms reply"
+  	android:defaultValue="false" />
+  	
+   <EditTextPreference
+  	android:key="sms_message"
+	android:title="SMS Message"
+	android:summary="Please enter the message to be replied automatically"
+	android:dialogTitle="SMS Message"
+	android:dialogMessage="Provide a SMS Message"
+	android:height="125dip"
+	android:maxLength="160"
+	
+	android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine"
+	android:gravity="top"
+	android:dependency="auto_reply" />
+	
+   <ListPreference
+	android:key="sms_interval"
+	android:title="SMS Reply Interval"
+	android:summary="Define the minimum interval between automatic sms replies"
+	android:defaultValue="1"
+	android:entries="@array/sms_interval"
+	android:entryValues="@array/sms_intervalValues"
+	android:dependency="auto_reply" />
+
+</PreferenceScreen>

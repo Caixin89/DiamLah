@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/popup_add"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:focusableInTouchMode="true"
+>
+<ScrollView android:padding="10dp" android:layout_height="fill_parent" android:id="@+id/scrollView1" android:layout_width="fill_parent">
+    <LinearLayout android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:text="Name:" android:layout_width="wrap_content" ></TextView>
+        <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Name" android:maxLength="10" android:id="@+id/editlabel" android:inputType="textCapSentences" android:singleLine="true"></EditText>
+        <TextView android:text="Day:" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <Spinner android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/daypicker"></Spinner>
+        <TextView android:text="Frequency:" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <Spinner android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/freqpicker"></Spinner>
+        <TextView android:text="Type:" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <Spinner android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/typepicker"></Spinner>
+        <TextView android:text="Start time:" android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TimePicker android:id="@+id/timepicker" android:layout_height="wrap_content" android:layout_width="wrap_content"></TimePicker>
+        <TextView android:text="End time:" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TimePicker android:id="@+id/endtimepicker" android:layout_height="wrap_content" android:layout_width="wrap_content"></TimePicker>
+        
+        <LinearLayout android:id="@+id/Button" android:layout_height="wrap_content" android:layout_width="fill_parent" android:paddingTop="10dp">
+            <LinearLayout android:id="@+id/ok" android:layout_height="fill_parent" android:layout_width="wrap_content" android:layout_weight="1">
+                <Button android:layout_height="wrap_content" android:text="Ok" android:layout_width="fill_parent" android:id="@+id/dialogupdate"></Button>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/cancel" android:layout_height="fill_parent" android:layout_width="wrap_content" android:layout_weight="1">
+                <Button android:layout_height="wrap_content" android:text="Cancel" android:layout_width="fill_parent" android:id="@+id/dialogdismiss"></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

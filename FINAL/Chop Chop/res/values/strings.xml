@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chop Chop</string>
+    <string name="add">Add</string>
+    <string name="exit">Exit</string>
+    <string name="done">Done</string>
+    <string name="delete">Delete</string><string name="edit">Edit</string><string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+    <string name="no_data">Duh, no data!</string><string name="numbers">Numbers</string>
+    <string name="words">Words</string>
+    <string name="checklist">Checklist</string>
+    <string name="pairs">Pairs</string>
+    <string name="view">View</string>
+    <string-array name="menu">
+        <item name="view">View</item>
+        <item name="edit">Edit</item>
+        <item name="duplicate">Duplicate</item>
+        <item name="delete">Delete</item>
+    </string-array>
+    <string name="emtpy_field_title">Empty Field</string>
+    <string name="emtpy_field">Please enter at least one checklist.</string>
+    <string name="invalid_char_title">Invalid Character</string>
+    <string name="invalid_char">You have entered invalid character(s).  You entry cannot contain ,, [ ] ++</string>
+    <string name="menu_title">Please Select</string>
+    <string name="popup_pair_select_title">Pair Words With ...</string>
+    <string name="sendvia">Share via</string>
+    
+    
+    
+</resources>

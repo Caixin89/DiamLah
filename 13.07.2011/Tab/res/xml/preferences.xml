@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="User Information">		
+	  
+	  <EditTextPreference
+	  	android:key="user_id"
+		android:title="Matric No."
+		android:summary="Please enter your Matric No."
+		android:dialogTitle="Matric No."
+		android:dialogMessage="Please enter your Matric No."
+		android:defaultValue="A0001234K" />
+	  	
+	  <ListPreference
+		android:key="response"
+		android:title="Response"
+		android:summary="Set whether you prefer Diamlah! to be in vibrate or silent mode"
+		android:defaultValue="1"
+		android:entries="@array/mode_name"
+		android:entryValues="@array/mode_id" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Sleep Settings">	  	
+	  <CheckBoxPreference
+	  	android:key="sleep_mode"
+	  	android:title="Sleep Mode"
+	  	android:summary="Enable or disable sleep mode"
+	  	android:defaultValue="false" />	
+	  	
+	  <Super.Ivle.Boy.SleepTime
+	   android:dialogTitle="Sleep time"
+	   android:dialogMessage="Set your sleep time"
+	   android:key="sleep"
+	   android:title="Sleep Time"
+	   android:summary="Set your sleep time"
+	   android:defaultValue="22:00"
+	   android:dependency="sleep_mode" />
+	   
+	  <Super.Ivle.Boy.SleepTime
+	   android:dialogTitle="Wake-up Time"
+	   android:dialogMessage="Set your wake-up time"
+	   android:key="wake-up"
+	   android:title="Wake-up Time"
+	   android:summary="Set your wake-up time"
+	   android:defaultValue="8:00"
+	   android:dependency="sleep_mode" />
+	  
+	</PreferenceCategory>
+	
+ 	<PreferenceCategory android:title="Application Settings">
+ 	
+	  <Preference
+		android:title="Clear Data" android:key="clear_data" android:summary="Remove all and refresh schedules from server"/>
+		
+  	</PreferenceCategory>
+  	
+  	<PreferenceCategory android:title="Help">
+ 		
+		<Preference
+		android:title="How to Use" android:key="how_to_use"/>
+				 		
+	 	 <Preference
+		android:title="About Diamlah!" 
+		android:summary="Version 1.0" android:key="about"/>
+		
+  	</PreferenceCategory>
+  
+  
+</PreferenceScreen>
